@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Checkout
         uses: action/checkout@v2
-      - name: fetch num squared
+      - name: fetch num_squared
         id: get-square
         uses: ./
         with:
