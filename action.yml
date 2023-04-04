@@ -8,7 +8,7 @@ intputs:
 outputs:
   num_squared:
   description: 'Square of the input'
-  value: ${{ steps.get.squre.outputs.num_squared }}
+  value: ${{ steps.get.square.outputs.num_squared }}
 runs:
   using: 'composite'
   steps:
