@@ -4,7 +4,7 @@ on: [push]
 jobs:
   get-num-square:
     runs-on: ubuntu-latest
-    name: return the number squared
+    name: return the num_squared
     steps:
       - name: Checkout
         uses: actions/checkout@v2
