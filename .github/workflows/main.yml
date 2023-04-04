@@ -4,11 +4,11 @@ on: [push]
 jobs:
   get-num-square:
     runs-on: ubuntu-latest
-    name: return the number square
+    name: return the number_square
     steps:
       - name: Checkout
         uses: action/checkout@v2
-      - name: fetch num_squared
+      - name: fetch num squared
         id: get-square
         uses: ./
         with:
